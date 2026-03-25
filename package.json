@@ -1,5 +1,24 @@
 {
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "1st project without database",
+  "homepage": "https://github.com/SrujanVerse/Blog-application#readme",
+  "bugs": {
+    "url": "https://github.com/SrujanVerse/Blog-application/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SrujanVerse/Blog-application.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
+    "body-parser": "^2.2.2",
     "express": "^5.2.1"
   }
 }

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/public/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+ 
+    <!-- 1. Blog name — far left -->
+    <span class="blog-name">Blogundar</span>
+ 
+    <!-- 2. Home link -->
+    <a href="#" class="nav-link">Home</a>
+ 
+    <!-- 3. Posts dropdown
+         The whole .dropdown div is the hover zone.
+         Both the button AND the menu are inside it.
+         So hovering anywhere in this area keeps the menu open. -->
+    <div class="dropdown">
+ 
+      <button class="dropdown-btn">Posts ▾</button>
+ 
+      <!-- This menu will NOT disappear when you move mouse to it
+           because it is INSIDE the same .dropdown div -->
+      <div class="dropdown-menu">
+        <a href="#">Create Post</a>
+        <a href="#">Edit Post</a>
+      </div>
+ 
+    </div>
+ 
+    <!-- 4. Search bar — far right -->
+    <div class="search-bar">
+      <input type="text" placeholder="Search posts..." />
+      <button>🔍</button>
+    </div>
+ 
+  </nav>
+
+</body>
+</html>
