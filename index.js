@@ -4,8 +4,19 @@ import bodyParser from "body-parser"
 const app=express();
 const port = 3000;
 
+app.use(express.static("public"));
 
+app.get("/",(req,res)=>{
+    res.render("index.ejs");
+})
 
+app.get("/write.ejs",(req,res)=>{
+    res.render("write.ejs");
+});
+
+app.get("/edit.ejs",(req,res)=>{
+    res.render("edit.ejs");
+});
 
 app.listen(port,()=>{
     console.log(`On port ${port}`);
